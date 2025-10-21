@@ -57,7 +57,7 @@ def fetch_chunk(session, offset, limit=LIMIT):
 
 def download_all(out_path="full_dataset.csv"):
     sess = make_session()
-    offset = 0
+    offset = 2900000
     first_chunk = True
     while True:
         print(datetime.now())
